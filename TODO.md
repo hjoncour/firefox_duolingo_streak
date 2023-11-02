@@ -1,9 +1,2 @@
-- Resize image
-
-Options: 
-- colors
-- fonts
-
-Features:
-- Automatically select
-
+- Get data from duolingo
+- UI
