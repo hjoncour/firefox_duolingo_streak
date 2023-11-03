@@ -1,16 +1,24 @@
 {
-    "manifest_version": 3,
-    "name": "ASSCII Art Generator",
-    "version": "1.0",
-    "description": "Track duolingo streak",
-    "permissions": ["activeTab"],
-    "action": {
-      "default_popup": "index.html",
-      "default_icon": {
-        "16": "images/icon16.png",
-        "48": "images/icon48.png",
-        "128": "images/icon128.png"
-      }
+  "manifest_version": 3,
+  "name": "Duolingo Streak Counter",
+  "version": "1.0",
+  "description": "Track duolingo streak",
+  "permissions": ["activeTab", "storage"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "assets/streak_owl.png",
+      "48": "assets/streak_owl.png",
+      "128": "assets/streak_owl.png"
     }
+  },
+  "icons": {
+    "16": "assets/streak_owl.png",
+    "48": "assets/streak_owl.png",
+    "128": "assets/streak_owl.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
   }
+}
   

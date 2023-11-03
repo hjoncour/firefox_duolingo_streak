@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "QR Code Generator",
+  "name": "Duolingo Streak Counter",
   "version": "1.0",
-  "description": "Generate QR codes for web page URLs, text, or contact information.",
+  "description": "Track duolingo streak.",
   "permissions": ["activeTab"],
   "action": {
     "default_popup": "index.html",
@@ -10,5 +10,9 @@
       "16": "logo192.png",
       "48": "logo512.png"
     }
+  },
+  "icons": {
+    "16": "logo192.png",
+    "48": "logo512.png"
   }
 }
