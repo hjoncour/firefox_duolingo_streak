@@ -1,4 +1,4 @@
-# Chrome Duolingo Streak
+# Firefox Duolingo Streak
 
 ### `npm start`
 
